@@ -1,0 +1,66 @@
+/* FEUILLE DE STYLE CSS */
+
+body {
+    background-color: #101012;
+    color: white;
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.result_sentence {
+    display: grid;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.score-board {
+    margin-top: 10%;
+    text-align: center;
+    display: grid;   
+}
+
+.user {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.computer {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.scoreUser {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.scoreComputer {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.selection {
+    margin-left: 50px;
+
+    margin-top: 10%;
+    display:grid;
+    align-self: center;
+    
+}
+
+.pierre {
+    grid-row: 1;
+}
+
+.feuille {
+    grid-row: 1;
+}
+
+.ciseaux {
+    grid-row: 1;
+}
+
